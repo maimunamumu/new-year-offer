@@ -3,8 +3,8 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
-    color: rgb(255, 255, 255);
+    padding:0;
+   
 }
 body{
     font-family: Merriweather;
@@ -15,7 +15,7 @@ body{
 .banner-container{
     max-width: ; width:1300px;
      margin: 0 auto;
-     border: 2px solid red;
+     border: 1px solid black;
     min-height: 550px;
     margin-top: 20px;
     border-radius: 10px;
@@ -38,11 +38,48 @@ body{
 .banner-content p{
     font-size: 32px;
     font-weight: 400px;
+    color: rgb(255, 255, 255);
 }
 .banner-content h1{
     font-size: 72px;
     font-weight: 900px;
+    color: rgb(255, 255, 255);
+    
 }
-
-
-
+/* start-section-style */
+.start-section-container{
+    width: 800px;
+     height: 700px;
+     margin: 0 auto;
+     margin-top: 100px;
+}
+.start-section-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: ;
+}
+.start-section-title h1{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 70px;
+font-weight: 700;
+margin-bottom: 30px;
+}
+.start-section-title p{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 18px;
+font-weight: 500;
+}
+.start-section-title h2{
+    color: rgb(7, 2, 17);
+font-family: Inter;
+font-size: 40px;
+font-weight: 700;
+    
+}
+.section-image-container{
+    margin-top: 40px;
+}
