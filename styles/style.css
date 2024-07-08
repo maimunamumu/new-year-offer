@@ -96,11 +96,12 @@ font-weight: 700;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.504);
+    background-color:rgb(0, 0, 0 , 0.600);
     background-image: url('../images/Vectorrr.png');
     background-position: center;
     background-repeat: no-repeat;
     background-blend-mode: overlay;
+    
     
     
    
@@ -116,6 +117,7 @@ font-weight: 700;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* border: 2px solid yellow; */
 }
 .left-side-content h1{
     font-family: Merriweather;
@@ -280,4 +282,100 @@ margin-top: 10px;
  }
  .new-best-offer-end-content-image{
     margin-top: 50px;
+ }
+ /* discount offer style */
+
+ .discount-offer-container{
+    width: 1320px;
+height: 986px;
+margin: 0 auto;
+margin-top: 100px;
+position: relative;
+ }
+
+ .holidays-content-title{
+    width: 1320px;
+height: 260px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+ }
+ 
+ .holidays-content-title h3{
+    color: rgb(7, 2, 17);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+ }
+
+ .holidays-content-title h1{
+    font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+margin-top: 16px;
+ }
+ .holidays-content-title p{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+ }
+ .holidays-content-title #a{
+    margin-top: 28px;
+
+ }
+
+ .holidays-content-title h1 span{
+    color: red;
+
+ }
+ .solid-colour{
+    width: 1320px;
+    height: 200px;
+    background-image: url('../images/Rectangle-2.png');
+    background-repeat: no-repeat;
+    position: absolute; 
+    top: 80%;
+ }
+
+ /* discount offer end section style */
+
+ .discout-offer-end-content{
+    width: 1320px;
+    margin: 0 auto;
+height: 726px;
+display: flex;
+ }
+ .left-side-discount-content{
+    height:726px ;
+    width: 60%;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .right-side-discount-content{
+    height: 726px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+ }
+ .discount-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        width: 350px;
+         height: 350px;
+         margin-bottom: 200px;
+         margin-top: 77px;
+         margin-left: 125px;
+ }
+ .discount-image img{
+    width: 350px;
+height:350px;
  }
